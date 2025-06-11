@@ -1,0 +1,106 @@
+.order {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .order--list {
+      display: flex;
+      flex-wrap: wrap;
+      background: #f9f9f9;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 16px;
+      gap: 16px;
+  
+      &--left {
+        flex: 1;
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+  
+        &--box {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 8px;
+  
+          img {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            object-fit: cover;
+          }
+  
+          p {
+            font-size: 14px;
+            color: #555;
+          }
+  
+          h4 {
+            font-size: 14px;
+            color: #333;
+          }
+        }
+      }
+  
+      &--payment {
+        flex: 0.5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+  
+        h4 {
+          font-size: 16px;
+          color: #333;
+        }
+  
+        p {
+          font-size: 14px;
+          color: #007aff;
+          font-weight: bold;
+        }
+      }
+  
+      &--center {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+  
+        &--box {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+  
+          h4 {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+          }
+        }
+  
+        .btn {
+          background: #ff3b30;
+          border: none;
+          border-radius: 8px;
+          color: #fff;
+          padding: 8px 16px;
+          cursor: pointer;
+          font-size: 14px;
+          transition: background 0.3s;
+  
+          &:hover {
+            background: #e63930;
+          }
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,4 @@
+npm start ở 2 file backend và client
+
+Tài khoản Admin: admin@gmail.com
+Mật khẩu: 123
